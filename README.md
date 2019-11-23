@@ -1,3 +1,27 @@
+# graphql-client-dx
+
+このプロジェクトは、ローカルの 8080 ポートで swapi-graphql を起動して実行します。
+
+## Run swapi-graphql
+
+```
+git clone https://github.com/graphql/swapi-graphql.git
+cd swapi-graphql
+yarn install
+yarn build
+PORT=8080 yarn start
+```
+
+## Run this project
+
+```
+yarn install
+yarn build
+yarn start
+```
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
